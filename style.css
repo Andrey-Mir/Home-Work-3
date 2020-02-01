@@ -414,7 +414,9 @@ padding-left: 20px;
 .center{
 	width: 90%;
 }
-
+.container2 .cards div{
+	margin-bottom: 0px;
+}
 
 }
 @media (max-width: 992px){
@@ -433,7 +435,7 @@ padding-left: 20px;
 }
 @media (max-width: 768px){
 	.container2 .cards div{
-	width: 45%;
+	width: 30%;
 	}
 	.container4 .galery div{
 		width: 45%;
@@ -445,7 +447,15 @@ padding-left: 20px;
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
-	
+	.container2 .cards div {
+		padding-bottom: 0px;
+		margin-top: 2px;
+		margin-bottom: -69px;
+
+	}
+	.container3 .center{
+		width: 85%;
+	}
 }
 @media (max-width: 500px){
 	.container2 .cards div{
@@ -479,6 +489,8 @@ padding-left: 20px;
 	}
 	
 }
-
-
-
+@media (max-width: 375px){
+	.container2 .cards div{
+		width: 101%;
+	}
+}
